@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazfit Cheetah Pro Smart Watch</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            display: flex;
+            gap: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .image-section img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .details-section {
+            flex: 1;
+        }
+        .breadcrumb {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: #ff6a00;
+        }
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        .product-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .ratings {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        .ratings span {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .product-price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .discount-price {
+            font-size: 1em;
+            color: #999;
+            text-decoration: line-through;
+            margin-left: 10px;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .quantity {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .quantity input {
+            width: 50px;
+            text-align: center;
+            margin-left: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .buy-now {
+            display: inline-block;
+            background-color: #ff6a00;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .buy-now:hover {
+            background-color: #e55a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="image-section">
+            <img src="image/sm2.webp" alt="Amazfit Cheetah Pro Smart Watch">
+        </div>
+        
+        <div class="details-section">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> > <a href="shop-by-categories.html">Shop by Categories</a> > <a href="phones.html">Phones</a>
+            </div>
+            <div class="product-title">Amazfit Cheetah Pro Smart Watch</div>
+            <div class="ratings">
+                <span>⭐⭐⭐⭐⭐</span>
+                <span>200 Reviews</span>
+            </div>
+            <div class="product-price">
+                29990 BDT <span class="discount-price">34990 BDT</span>
+            </div>
+            <div class="product-description">
+                The Amazfit Cheetah Pro combines a stunning 1.45” AMOLED display, dual-band GPS, AI coaching, and 14-day battery life in a durable, lightweight design. Perfect for runners and adventurers!
+            <div class="quantity">
+                Quantity:
+                <input type="number" min="1" value="1">
+            </div>
+            <form action="form.html" method="GET">
+                <input type="hidden" name="product_name" value="Amazfit Cheetah Pro Smart Watch">
+                <input type="hidden" name="product_image" value="sm2.webp">
+                <input type="hidden" name="product_price" value="29990 BDT">
+                <button type="submit" class="buy-now">Buy Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

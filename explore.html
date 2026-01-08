@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Shop by Categories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/background.jpg");
+
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+           
+            color: #000;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .categories-container {
+            max-width: 1200px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0 15px;
+        }
+        .category-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .category-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; 
+        }
+        .category-card:hover img {
+            transform: scale(1.1); 
+        }
+        .category-card h3 {
+            margin: 0;
+            font-size: 1em;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Shop by Categories</div>
+
+    <div class="categories-container">
+       
+        <a href="phones.html" class="category-card">
+            <img src="image/iphone.webp" alt="Phones">
+            <h3>Phones</h3>
+        </a>
+        
+        <a href="tablet.html" class="category-card">
+            <img src="image/tablet.jpg" alt="Tablet">
+            <h3>Tablet</h3>
+        </a>
+        
+        <a href="laptop.html" class="category-card">
+            <img src="image/laptop.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+        </a>
+        
+        <a href="airpods.html" class="category-card">
+            <img src="image/airpods.jpg" alt="AirPods">
+            <h3>AirPods</h3>
+        </a>
+       
+        <a href="earbuds.html" class="category-card">
+            <img src="image/earbuds.jpeg" alt="Earbuds">
+            <h3>Earbuds</h3>
+        </a>
+        
+        <a href="powerbank.html" class="category-card">
+            <img src="image/powerbank.jpg" alt="Power Banks">
+            <h3>Power Banks</h3>
+        </a>
+        
+        <a href="smartwatch.html" class="category-card">
+            <img src="image/smartwatch.jpg" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+        </a>
+    </div>
+</body>
+</html>

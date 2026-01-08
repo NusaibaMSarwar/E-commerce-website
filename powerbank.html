@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Bank</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: #ffffff;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+        }
+        .devices-container {
+            max-width: 1200px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0 15px;
+        }
+        .device-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .device-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .device-card img {
+            width: auto;
+            height: 150px; 
+            margin-bottom: 10px;
+            object-fit: contain; 
+            display: block;
+        }
+        .device-card h3 {
+            margin: 5px 0;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .device-card .price {
+            color: #555;
+            font-size: 0.9em;
+        }
+        .device-card a {
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #ff6a00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        .device-card a:hover {
+            background-color: #e55a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Power Bank</div>
+
+    <div class="devices-container">
+        <div class="device-card">
+            <img src="image/pb1.png" alt="JBL Battery 200">
+            <h3>JBL Battery 200</h3>
+            <p class="price">BDT 9499</p>
+            <a href="JBL Battery 200.html">Details</a>
+        </div>
+        <div class="device-card">
+            <img src="image/pb2.jpg" alt="Mophie Essential PowerStation">
+            <h3>Mophie Essential PowerStation</h3>
+            <p class="price">BDT 5550</p>
+            <a href="Mophie Essential PowerStation.html">Details</a>
+        </div>
+        <div class="device-card">
+            <img src="image/pb3.webp" alt="Anker 321 MagGo Battery Magnetic 5K">
+            <h3>Anker 321 MagGo Battery Magnetic 5K</h3>
+            <p class="price">BDT 3990</p>
+            <a href="Anker 321 MagGo.html">Details</a>
+        </div>
+        
+    </div>
+</body>
+</html>
