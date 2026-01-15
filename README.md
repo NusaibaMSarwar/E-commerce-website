@@ -26,3 +26,5 @@ Database (if used): MySQL
 🔹 Purpose
 
 This project was created to practice frontend and backend web development concepts, focusing on building a structured, user-friendly, and responsive e-commerce platform.
+
+🚀 Live Demo: https://nusaibamsarwar.github.io/E-commerce-website/
